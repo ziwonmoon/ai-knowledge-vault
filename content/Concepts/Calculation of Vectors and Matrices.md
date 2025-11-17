@@ -14,6 +14,3 @@ tensor.ndim # 1
 tensor.shape # (4, )
 ```
 
-### 3차원 벡터 예시
-
-[One-Hot Encoding](One-Hot%20Encoding.md)
