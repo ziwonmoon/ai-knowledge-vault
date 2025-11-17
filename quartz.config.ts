@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "문지원의 AI-Notebook",
+    pageTitle: "문지원의 AI 공부 노트",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
