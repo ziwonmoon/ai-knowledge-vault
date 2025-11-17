@@ -1,0 +1,3 @@
+전체 훈련 데이터를 셀 수 있는 하나의 단위
+
+[[Sample and Feature]]

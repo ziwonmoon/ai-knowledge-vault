@@ -4,7 +4,6 @@
 * [[Calculation of Vectors and Matrices]]
 
 ### 인공지능 수학
-
 * [[Cost Function]]
 * [[Tensor]]
 
@@ -13,9 +12,9 @@
 * [[Batch]]
 * [[Feature]]
 * [[Sample]]
+* [[Linear Regression]]
 * [[Optimizer - Gradient Descent]]
 * [[Mini Batch Gradient Descent]]
-* [[Linear Regression]]
 * [[One-Hot Encoding]]
 
 ### Pytorch
