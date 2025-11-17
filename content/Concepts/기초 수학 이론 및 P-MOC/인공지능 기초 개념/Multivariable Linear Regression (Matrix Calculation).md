@@ -4,4 +4,4 @@ $$ H(X) = WX + B $$
 
 실제로는 차원 문제로 보통 이렇게 함.
 
-![[Pasted image 20251117155655.png]]
+![[Matrix Calculation of Multivariable Linear Regression.png]]
