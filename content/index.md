@@ -1,5 +1,5 @@
 ---
-title: 공부노트 - Pytorch Deep Learning
+title: Pytorch Deep Learning 공부 노트
 ---
 
 [문지원의 딥러닝 연구 포트폴리오 Notion Link](https://www.notion.so/280223c8e74c80888638f0b373972438?pvs=21) 
