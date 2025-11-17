@@ -1,6 +1,3 @@
----
-title: Welcome to Quartz
----
+## [Github - Pytorch Deep Learning](https://github.com/ziwonmoon/Study_PyTorch_DeepLearning)
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+* [[공부노트 - Pytorch Deep Learning]]
