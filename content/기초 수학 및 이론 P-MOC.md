@@ -25,6 +25,7 @@
 * [[Dot Product vs Element-Wise Multiplication]]
 * [[Implementing a Model in a Class]]
 * [[In-place Operation]]
+* [[nn.Sequential()]]
 
 ### 추가 개인 과제
 * 직선의 비용 함수는 MSE를 쓰는데 더 쉬운 방법이 있어보이는데 왜 그걸 안할까? 더 쉬운 방법 찾아보고 해보기
