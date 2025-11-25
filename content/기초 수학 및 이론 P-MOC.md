@@ -13,12 +13,19 @@
 * [[Feature]]
 * [[Sample]]
 * [[Linear Regression]]
-* [[Optimizer - Gradient Descent]]
+	* [[Optimizer - Gradient Descent]]
 * [[Mini Batch Gradient Descent]]
 * [[One-Hot Encoding]]
+* [[Binary Classfication]]
+* [[Logistic Regression]]
+	* [[Sigmoid Function]]
 
 ### Pytorch
 * [[Broadcasting]]
 * [[Dot Product vs Element-Wise Multiplication]]
 * [[Implementing a Model in a Class]]
 * [[In-place Operation]]
+
+### 추가 개인 과제
+* 직선의 비용 함수는 MSE를 쓰는데 더 쉬운 방법이 있어보이는데 왜 그걸 안할까? 더 쉬운 방법 찾아보고 해보기
+* 
