@@ -19,6 +19,8 @@
 * [[Binary Classfication]]
 * [[Logistic Regression]]
 	* [[Sigmoid Function]]
+* [[Softmax Regression]]
+	* [[Softmax Function]]
 
 ### Pytorch
 * [[Broadcasting]]
