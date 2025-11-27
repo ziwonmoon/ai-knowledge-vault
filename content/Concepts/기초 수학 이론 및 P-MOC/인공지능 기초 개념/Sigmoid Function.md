@@ -5,9 +5,7 @@ $$ sigmoid(Wx+b) = \frac{1}{1+e^{-(Wx+b)}} $$
 
 ![[Sigmoid Function Plot.png]]
 
-$$ -1 < sigmoid(x) < 1
-$$ $$ \lim_{x \to \infty}{sigmoid(x)}=1
-$$$$  \lim_{x \to -\infty}{sigmoid(x)} = -1 $$
+$$ -1 < sigmoid(x) < 1 $$ $$ \lim_{x \to \infty}{sigmoid(x)}=1 $$$$  \lim_{x \to -\infty}{sigmoid(x)} = -1 $$
 
 #### W 바꿔보기
 ![[Sigmoid Funtion Weigts Variance.png]]
