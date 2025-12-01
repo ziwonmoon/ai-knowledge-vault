@@ -1,3 +1,3 @@
 ![[Sample-and-Feature.png]]
-[[Sample]]
-[[Feature]]
+![[Sample]]
+![[Feature]]

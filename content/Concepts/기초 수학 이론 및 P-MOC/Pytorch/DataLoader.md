@@ -1,5 +1,4 @@
-``` Python
-from torch.utils.data import DataLoader
-```
-Dataset을 감싸서 Iterator 처럼 작동하게 만들어 줌.
-이때 반복되는 객체는 Mini Batch
+
+Iterable Mini Batch 객체를 만들어줌
+
+데이터 섞기, 병렬 처리
