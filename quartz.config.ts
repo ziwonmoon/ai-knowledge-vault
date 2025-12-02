@@ -15,8 +15,8 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "Quartz-Obsidian-AI-Notebook",
+    locale: "ko-KR",
+    baseUrl: "ziwonmoon.github.io/Quartz-Obsidian-AI-Notebook",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
