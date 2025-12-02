@@ -1,21 +1,18 @@
 ---
-title: Pytorch Deep Learning 공부 노트
+title: 문지원의 AI 공부 노트
 ---
 
-[문지원의 딥러닝 연구 포트폴리오 Notion Link](https://www.notion.so/280223c8e74c80888638f0b373972438?pvs=21) 
+[My Github Page](https://github.com/ziwonmoon) 
 
 AI 관련 공부한 내용들을 정리했습니다.
 *기초 수학, 인공지능 수학은 그냥 내가 알던거/모르던거 기준임*
-### 기초 수학
+
 ![[기초 수학]]
 
-### 인공지능 수학
 ![[인공지능 수학]]
 
-### 인공지능 기초 개념
 ![[인공지능 기초 개념]]
 
-### Pytorch
 ![[Pytorch]]
 
 

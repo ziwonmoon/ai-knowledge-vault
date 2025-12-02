@@ -1,3 +1,7 @@
+---
+aliases:
+  - 경사 하강법
+---
 
 경사 하강법 : Cost Function 을 최소화하는 방법
 

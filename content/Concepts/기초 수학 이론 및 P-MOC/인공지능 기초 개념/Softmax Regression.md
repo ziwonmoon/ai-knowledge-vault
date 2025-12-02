@@ -1,3 +1,7 @@
+---
+aliases:
+  - 소프트맥스 회귀
+---
 
  ![[Softmax Function]]
 

@@ -1,3 +1,7 @@
+---
+aliases:
+  - 로지스틱 회귀
+---
 
 로지스틱 회귀는 이름은 Regression 이지만 실제로는 분류 (Classfication) 작업에 사용할 수 있음.
 
