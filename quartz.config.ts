@@ -13,7 +13,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: 'G-DQYKM0Y9EE'
     },
     locale: "ko-KR",
     baseUrl: "ziwonmoon.github.io/Quartz-Obsidian-AI-Notebook",

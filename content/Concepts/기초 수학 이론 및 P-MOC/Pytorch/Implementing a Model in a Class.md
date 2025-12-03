@@ -21,7 +21,7 @@ model = LinearRegressionModel()
 ```
 
 
-``` Python
+```Python
 class BinaryClassifier(nn.Module):
 	def __init__(self):
 		super().__init__()

@@ -10,7 +10,7 @@ nn.Sequential(
 생성하는 `nn.Sequential`객체는 `nn.Module`을 상속받음
 
 
-``` Python
+```Python
 model = nn.Sequential(
 	nn.Linear(2, 2),  #Input > Hidden
 	nn.LeakyReLU(),

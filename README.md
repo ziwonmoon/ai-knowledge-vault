@@ -1,8 +1,14 @@
 # Quartz-Obsidian AI Notebook
 
-https://ziwonmoon.github.io/Quartz-Obsidian-AI-Notebook/
-workflow : Obsidian으로 편집 -> Github Push -> Github Actions -> Github Pages
+https://ziwonmoon.github.io/Quartz-Obsidian-AI-Notebook/  
+workflow : Obsidian으로 편집 -> Github Push -> Github Actions -> Github Pages  
 
+How to start this project in local  
+```Bash
+npx quartz build --serve 
+```
+
+>TODO : Syntax Highlighting
 
 ---
 
@@ -14,13 +20,3 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
 Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
 
 🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
