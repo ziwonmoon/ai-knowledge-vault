@@ -7,3 +7,5 @@
 * [[torch.argmax()]]
 * [[DataLoader]]
 * [[nn.CrossEntropyLoss()]]
+* [[nn.BCELoss()]]
+* [[nn.Linear()]]

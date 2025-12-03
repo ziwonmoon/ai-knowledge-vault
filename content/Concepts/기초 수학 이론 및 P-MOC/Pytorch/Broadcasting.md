@@ -3,7 +3,7 @@ aliases:
   - 브로드캐스팅
 ---
 
-행렬의 연산시 파이토치가 브로드캐스팅을 통[[Dot Product vs Element-Wise Multiplication]]해 크기를 맞춰줌.
+행렬의 연산시 파이토치가 브로드캐스팅을 통해 크기를 맞춰줌.[^1]
 
 
 >Explicit is better than implicit
@@ -38,3 +38,5 @@ GPU실행시, CUDA 연산 시킨다.
 그래서 파이썬으로 그냥 돌리는거랑 아주 다른 속도가 된다.
 ##### 더 쓸데없는 지식
 매트랩도 이래서 행렬연산 빠른거임.
+
+[^1]: [[Dot Product vs Element-Wise Multiplication]]
