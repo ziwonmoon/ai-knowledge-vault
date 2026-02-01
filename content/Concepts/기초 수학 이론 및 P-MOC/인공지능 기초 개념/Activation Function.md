@@ -13,7 +13,7 @@ Nonlinear function : 활성화 함수는 비선형 함수이다.
 >스탠포드 대학교의 딥 러닝 강의(cs231n)에서는 ReLU를 먼저 시도해보고, 그 다음으로 LeakyReLU나 ELU같은 ReLU의 변형들을 시도해보며, Sigmoid는 사용하지 말라고 권장함.
 
 
-### [[Sigmoid Function]] and [[Vanishing Gradients]]
+## [[Sigmoid Function]] and [[Vanishing Gradients]]
 ![[Sigmoid Function and Vanishing Gradient.png]]
 ![[선형 회귀의 일반적인 학습 과정]]
 

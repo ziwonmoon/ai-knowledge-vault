@@ -21,7 +21,7 @@ $$ if\sum^n_iW_ix_i+b < 0 \rightarrow y=0 $$
 $b=(-\theta)$ 자료에서 생략되더라도 편향또한 최적의 값을 찾아야 할 변수
 
 
-### Logistic Regression vs Perceptron
+## Logistic Regression vs Perceptron
 
 Logistic Regression : $Sigmoid(\sum^n_i(W_ix_i+b))$
 Perceptron : $Step(\sum^n_i(W_ix_i+b))$

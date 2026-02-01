@@ -17,15 +17,15 @@ Sigmoid(x) \times (1 - Sigmoid(x))
 $$
 
 ## Sigmoid 알아보기
-#### W 바꿔보기
+### W 바꿔보기
 ![[Sigmoid Funtion Weigts Variance.png]]
 W값이 클 수록 그래프의 경사가 심해짐
 
-#### b 바꿔보기
+### b 바꿔보기
 ![[Sigmoid Function bais Variance.png]]그래프의 x축 이동
 
 
-#### Sigmoid 비용 함수 - MSE(Mean Square Error)?
+## Sigmoid 비용 함수 - MSE(Mean Square Error)?
 $$ cost(W, b) = \frac{1}{n} \sum_{i=1}^{n}{[y^{(i)}-H(x^{(i)})]^2}$$
 $$H(x) = sigmoid(Wx+b)$$
 ![[Differential of Sigmoid Function.png]]

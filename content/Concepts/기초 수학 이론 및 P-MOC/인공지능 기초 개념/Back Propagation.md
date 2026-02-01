@@ -20,6 +20,7 @@ aliases:
 ### 역전파 1단계 $W_5$ 를 찾기 
 
 >Chain Rule
+
 $$ \frac{\partial E_{total}}{\partial W_5} = 
 \frac{\partial E_{total}}{\partial o_1} \times
 \frac{\partial o_1}{\partial z_3} \times
@@ -60,6 +61,7 @@ $$
 \frac{\partial z_1}{\partial W_1}
 $$
 #### $\partial E_{total} / \partial h_1$
+
 $$ \begin{aligned}
 \frac{\partial E_{total}}{\partial h_1}
 &= \frac{\partial E_{o1}}{\partial h_1} +

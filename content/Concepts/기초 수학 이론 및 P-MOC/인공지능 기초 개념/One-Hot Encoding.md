@@ -1,5 +1,5 @@
 
-### Example
+## Example
 
 - I like NLP
 - I like DL
@@ -15,7 +15,7 @@
 | AI   | [0 0 0 0 0 1]  |
 
 
-### 왜 1, 2, 3, 4로 인덱싱하지 않고 One-Hot Encoding 을 사용하는가?
+## 왜 1, 2, 3, 4로 인덱싱하지 않고 One-Hot Encoding 을 사용하는가?
 ex) MSE as the cost function
 $$ Lost function = \frac{1}{n}\sum^{n}_{i}(y_i-\hat{y}_i)^2$$
 
