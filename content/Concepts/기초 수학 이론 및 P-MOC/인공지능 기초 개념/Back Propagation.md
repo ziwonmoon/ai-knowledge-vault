@@ -21,13 +21,16 @@ aliases:
 
 >Chain Rule
 
-$$ \frac{\partial E_{total}}{\partial W_5} = 
+$$
+\frac{\partial E_{total}}{\partial W_5} = 
 \frac{\partial E_{total}}{\partial o_1} \times
 \frac{\partial o_1}{\partial z_3} \times
-\frac{\partial z_3}{\partial W_5}$$
+\frac{\partial z_3}{\partial W_5}
+$$
 
 #### ${\partial E_{total}} / {\partial o_1}$
-$$ E_{total} = 
+$$
+E_{total} = 
 \frac{1}{2}(target_{o1}-output_{o1})^2 + \frac{1}{2}(target_{o2}-output_{o2})^2
 $$
 
@@ -43,12 +46,14 @@ $target_{o1}, output_{o1}$ : 알고 있는 값.
 참고,
 ![[Sigmoid Function#Sigmoid의 미분]]
 또한, $o_1 = sigmoid(z_3)$ 이다.
-$$ \frac{\partial o_1}{\partial z_3} =
+$$
+\frac{\partial o_1}{\partial z_3} =
 o_1 \times (1 - o_1)
 $$
 $o_1$ : 알고 있는 값.
 #### ${\partial z_3} / {\partial W_5}$
-$$ \frac{\partial z_3}{\partial W_5}
+$$
+\frac{\partial z_3}{\partial W_5}
 = h_1
 $$
 왜 why? $W_5 \cdot h_1 + b = z_3$
@@ -62,15 +67,17 @@ $$
 $$
 #### $\partial E_{total} / \partial h_1$
 
-$$ \begin{aligned}
+
+$$
+\begin{aligned}
 \frac{\partial E_{total}}{\partial h_1}
 &= \frac{\partial E_{o1}}{\partial h_1} +
 \frac{\partial E_{o2}}{\partial h_1}
 \\
 &= \frac{\partial E_{o1}}{\partial z_3}
 \frac{\partial z_3}{\partial h_1} +
-\frac{\partial E_{o2}}{\partial z_3}
-\frac{\partial z_3}{\partial h_1}
+\frac{\partial E_{o2}}{\partial z_4}
+\frac{\partial z_4}{\partial h_1}
 \\
 &= \frac{\partial E_{o1}}{\partial o_1}
 \frac{\partial o_1}{\partial z_3}
@@ -80,6 +87,7 @@ $$ \begin{aligned}
 \frac{\partial z_4}{\partial h_1}
 \end{aligned}
 $$
+
 
 1단계와 같은 방법
 #### $\partial E_{o1} / \partial o_1$
