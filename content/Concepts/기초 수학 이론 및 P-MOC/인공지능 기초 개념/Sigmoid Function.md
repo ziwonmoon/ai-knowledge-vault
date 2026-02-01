@@ -11,6 +11,12 @@ $$ sigmoid(Wx+b) = \frac{1}{1+e^{-(Wx+b)}} $$
 
 $$ -1 < sigmoid(x) < 1 $$ $$ \lim_{x \to \infty}{sigmoid(x)}=1 $$$$  \lim_{x \to -\infty}{sigmoid(x)} = -1 $$
 
+## Sigmoid의 미분
+$$\frac{dSigmoid(x)}{dx} = 
+Sigmoid(x) \times (1 - Sigmoid(x))
+$$
+
+## Sigmoid 알아보기
 #### W 바꿔보기
 ![[Sigmoid Funtion Weigts Variance.png]]
 W값이 클 수록 그래프의 경사가 심해짐
