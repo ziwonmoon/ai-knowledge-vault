@@ -9,3 +9,4 @@
 * [[nn.CrossEntropyLoss()]]
 * [[nn.BCELoss()]]
 * [[nn.Linear()]]
+* [[optim.Adam()]]
