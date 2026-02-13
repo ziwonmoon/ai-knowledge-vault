@@ -1,3 +1,4 @@
+# 개요
 n차원으로 구성된 배열
 
 ex.
@@ -13,12 +14,12 @@ ex.
 
 비전 분야와 자연어 분야의 텐서 차원별 네이밍이 다르다.
 
-## 3D텐서 - 비전에서
+# 3D텐서 - 비전에서
 
 |t|=(batch size, widht, height)
 
 ![image.png](content/_assets/img/3D-Tensor-Vision.png)
 
-## 3D텐서 - NLP에서
+# 3D텐서 - NLP에서
 
 ![image.png](content/_assets/img/3D-Tensor-NLP.png)
