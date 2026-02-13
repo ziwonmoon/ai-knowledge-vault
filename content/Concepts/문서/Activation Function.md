@@ -19,7 +19,7 @@ Nonlinear function : 활성화 함수는 비선형 함수이다.
 
 ## [[Sigmoid Function]] and [[Gradient Vanishing]]
 ![[Sigmoid Function and Vanishing Gradient.png]]
-![[선형 회귀의 일반적인 학습 과정]]
+![[신경망 학습]]
 
 ![[Sigmoid Function Vanishing Gradients.png]]
 ![[Gradient Vanishing]]

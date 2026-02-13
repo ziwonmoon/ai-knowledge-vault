@@ -1,4 +1,13 @@
-**cost function(비용 함수) = loss function(손실 함수)** = error function(오차 함수) = objective function(목적 함수)
+---
+aliases:
+  - 비용 함수
+  - 손실 함수
+  - 오차 함수
+  - 목적 함수
+  - Loss Function
+  - Error Function
+  - Objective Function
+---
 
 
 MES : Mean Squared Error *분산이랑 비슷함*

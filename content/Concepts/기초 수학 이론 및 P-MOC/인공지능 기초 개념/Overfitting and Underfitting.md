@@ -1,5 +1,0 @@
-
-![[Overfitting]]
-
-
-![[Underfitting]]

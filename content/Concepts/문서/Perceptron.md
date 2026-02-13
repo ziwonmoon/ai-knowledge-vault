@@ -27,6 +27,7 @@ Logistic Regression : $Sigmoid(\sum^n_i(W_ix_i+b))$
 Perceptron : $Step(\sum^n_i(W_ix_i+b))$
 
 
+## 하위 문서
 * [[Single-Layer Perceptron]]
 * [[Multi-Layer Perceptron (MLP)]]
 
