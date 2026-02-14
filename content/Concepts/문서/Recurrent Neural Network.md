@@ -52,3 +52,10 @@ $b : (D_h \times 1)$
 ![[RNN Output Structures.png]]
 입력과 출력의 길이를 다르게 설계할수 있으므로 다양한 용도로 사용할 수 있다.
 
+# 깊은 순환 신경망 (Deep Recurrent Neural Network)
+![[Deep Recurrent Neural Network.png]]
+
+# 양방향 순환 신경망 (Bidirectional Recurrent Neural Network)
+![[Bidirectional Recurrent Neural Network.png]]
+## 깊은 양방향 순환 신경망 (Deep Bidirectional Recurrent Neural Network)
+![[Deep Bidirectional Recurrent Neural Network.png]]
