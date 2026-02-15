@@ -2,6 +2,8 @@
 aliases:
   - 순환 신경망
   - RNN
+  - Vanilla RNN
+  - 바닐라 RNN
 ---
 # 개요
 딥 러닝에 있어서 가장 기본적인 [[Sequence Model|시퀀스 모델]].
@@ -59,3 +61,13 @@ $b : (D_h \times 1)$
 ![[Bidirectional Recurrent Neural Network.png]]
 ## 깊은 양방향 순환 신경망 (Deep Bidirectional Recurrent Neural Network)
 ![[Deep Bidirectional Recurrent Neural Network.png]]
+
+# 한계
+![[Vanilla RNN Oblivion.png]]
+## 장기 의존성 문제
+비교적 짧은 시퀀스에 대해서만 효과를 보인다. 타임스텝이 길어질수롭 앞의 정보가 뒤로 충분히 전달되지 못한다.
+사진은 앞 시퀀스의 내용이 잊혀지는 걸 표현
+
+# 변형
+* [[Long Short-Term Memory|LSTM]]
+* 
