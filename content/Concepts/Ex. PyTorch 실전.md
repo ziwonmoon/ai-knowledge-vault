@@ -3,9 +3,9 @@
 
 * [[torch.argmax()]]
 
-* [[nn.Sequential()]]
-* [[nn.Linear()]]
-* [[nn.CrossEntropyLoss()]]
+* [[torch.nn.Sequential()]]
+* [[torch.nn.Linear()]]
+* [[torch.nn.CrossEntropyLoss()]]
 
 
 * [[DataLoader]]

@@ -22,3 +22,5 @@ aliases:
 
 ![[Cross Entropy Function]]
 
+
+

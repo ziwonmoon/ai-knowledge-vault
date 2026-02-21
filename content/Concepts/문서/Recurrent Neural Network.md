@@ -70,4 +70,4 @@ $b : (D_h \times 1)$
 
 # 변형
 * [[Long Short-Term Memory|LSTM]]
-* 
+* [[Gated Recurrent Unit|GRU]]

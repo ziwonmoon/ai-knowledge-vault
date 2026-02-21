@@ -8,3 +8,5 @@ aliases:
 ex 메일을 받았을 때 스팸 메일인지 아닌지 분류.
 
 1. [[Logistic Regression]]
+
+결과값은 [[logits]]
