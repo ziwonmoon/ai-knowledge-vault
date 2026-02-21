@@ -14,6 +14,7 @@
 # 구현
 * [[Deep Neural Network]]
 * [[Recurrent Neural Network]]
+* [[Convolutional Neural Network]]
 
 # 구성 요소
 * [[Activation Function]]
