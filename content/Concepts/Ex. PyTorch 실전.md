@@ -6,6 +6,7 @@
 * [[torch.nn.Sequential()]]
 * [[torch.nn.Linear()]]
 * [[torch.nn.CrossEntropyLoss()]]
+* [[torch.nn.Conv2d()]]
 
 
 * [[DataLoader]]

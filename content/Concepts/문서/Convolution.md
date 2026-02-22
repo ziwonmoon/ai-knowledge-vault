@@ -34,6 +34,7 @@ $O_w$ : 특성 맵의 너비
 $C_i$ : 입력 데이터의 채널
 
 # 다수의 [[커널]]을 가질 경우의 합성곱 연산
+![[Convolution with multiple kernels.png]]
 실제 [[Convolutional Neural Network|CNN]]은 커널을 여러개 동시에 연산한다.
 
 커널은 서로 다른 가중치를 가지고, 서로 다른 특징을 학습한다.
