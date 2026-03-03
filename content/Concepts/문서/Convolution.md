@@ -1,6 +1,7 @@
 ---
 aliases:
   - 합성곱
+  - 컨볼루션
 ---
 # 개요
 [[Convolutional Neural Network|CNN]]에서 사용. 입력과 [[커널]]을 합성곱한다.
