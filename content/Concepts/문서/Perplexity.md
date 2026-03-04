@@ -8,16 +8,18 @@ aliases:
 '햇갈리는 정도'라는 뜻으로, '낮을수록'성능이 좋다는 것을 의미한다.
 
 문장 W의 길이가 N이라고 하였을 때의 PPL은 다음과 같다.
+
 $$\begin{align}
 PPL(W) &= P(w_1,w_2,w_3,...,w_N)^{-\frac{1}{N}} \\
 &= \sqrt[N]{\frac{1}{P(w_1,w_2,w_3,...,w_N)}} \\
 &\text{문장의 확률에 Chain Rule을 적용하면 다음과 같다} \\
 &=\sqrt[N]{\frac{1}{\prod^N_{i=1}{P(w_1|w_1,w_2,...,w_{i-1})}}}
-\end{align}$$
+\end{align}$$  
 
 여기에 N-gram을 적용할 수도 있다.
 예를 들어 Bigram언어 모델의 경우에는 식이 아래와 같다.
-$$PPL(W) = \sqrt[N]\frac{1}{\prod^N_{i=1}{P(w_i|w_{i-1})}}$$
+
+$$PPL(W) = \sqrt[N]\frac{1}{\prod^N_{i=1}{P(w_i|w_{i-1})}}$$  
 
 # 의미
 PPL은 선택할 수 있는 가능한 경우의 수를 의미하는 분기계수(Branching Factor)이다. PPL은 이 언어 모델이 특정 시점에서 평균적으로 몇 개의 선택지를 가지고 고민하는지를 의미한다.
