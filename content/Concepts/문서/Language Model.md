@@ -26,3 +26,7 @@ $$\begin{align}
 P(W) &= P(w_1,w_2,w_3,w_4,w_5,...,w_n) \\
 &= \prod^n_{i=1}{P(w_i|w_1,...,w_{i-1})}
 \end{align}$$
+
+# 기존 언어 모델 vs. 인공 신경망을 이용한 언어 모델
+![[Traditional LM vs Neural Network LM.png]]
+위 표에서, 맨 위의 모델만이 전통적 [[N-gram Language Model|N-gram 언어 모델]]이다. 나머지는 인공 신경망을 이용한 언어 모델들으로, 인공신경망을 이용한 언어 모델들은 대부분 N-gram을 이용한 언어 모델보다 더 좋은 성능 평가를 받았음을 확인할 수 있다.
