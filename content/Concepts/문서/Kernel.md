@@ -1,8 +1,8 @@
 ---
 aliases:
-  - kernel
   - 필터
   - filter
+  - 커널
 ---
 [[Convolutional Neural Network|CNN]]에서, 입력과 함께 [[Convolution|합성곱]] 연산으로 들어감. 이렇게 나온 연산결과를 [[Feature Map|특성 맵]]이라고 한다.
 

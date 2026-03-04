@@ -13,7 +13,7 @@ aliases:
 (보통 [[ReLU]]와 그 변형을 사용한다.)
 
 # [[Convolution|합성곱]] 연산
-입력과 [[커널]]을 [[Convolution|합성곱]]연산한다.
+입력과 [[Kernel|커널]]을 [[Convolution|합성곱]]연산한다.
 
 | [[Stride]]               | [[Padding]]      |
 | ------------------------ | ---------------- |
@@ -22,9 +22,9 @@ aliases:
 ![[CNN bias.png]]
 
 # [[특성 맵]]
-입력과 커널을 합성곱한 결과
+입력과 커널을 합성곱한 결과  
 $$O_h=floor(\frac{I_h-K_h+2P}{S}+1)$$
-$$O_w=floor(\frac{I_w-K_w+2P}{S}+1)$$
+$$O_w=floor(\frac{I_w-K_w+2P}{S}+1)$$  
 $floor()$ : 내림
 $I_h$ : 입력의 높이
 $I_w$ : 입력의 너비
