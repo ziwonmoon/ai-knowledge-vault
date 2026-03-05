@@ -4,19 +4,32 @@ aliases:
 ---
 Arxiv에서 찾을 수 있음.
 # 용어
-[[Residual]] : 나머지
-[[Ensemble]] : 앙상블 (여러 신경망을 사용해 예측을 결합하는 방법)
-[[Degradation]] : 네트워크를 더 깊게 만들었을 때 오히려 성능이 떨어지는 현상
-Counterpart : 짝
-Shallow : 얕은
-Comprehensive : 포괄적인
+[[residual]] : 나머지
+[[ensemble]] : 앙상블 (여러 신경망을 사용해 예측을 결합하는 방법)
+[[degradation]] : 네트워크를 더 깊게 만들었을 때 오히려 성능이 떨어지는 현상
+counterpart : 짝
+shallow : 얕은
+comprehensive : 포괄적인
+phenomena : 현상
 
 # ResNet
 목표로 하는  기초 매핑을 H(x)라고 하면, 쌓인 비선형 층들이 또 다른 매핑 F(x) := H(x) - x를 학습하도록 한다. 그러면 원래의 매핑은 F(x) + x의 형태로 재구성된다.
 
 만약 최적 해가 identity에 가깝다면, 전체 함수를 새로 배우는것보다 **조금 수정된 값(잔차)** 만 배우는 것이 더 쉽다.
 
-![[ResNet Residual Learning.png]]
+## 왜 잔차학습을 하면 Identity Mapping으로 수렴하기 쉬운가?
+만약 최적해가 $H(x) = x$라면, 비선형 변환을 여려번 거쳐서 최적해에 도달하기 어려움은 경험적으로 알 수 있다. (증명이 존재하는지는 모르겠지만 수학적 직관에 의하여 거의 확실하다)
+잔차 표현에서는 $F(x) = H(x) - x$이므로 $F(x) = 0$을 만들면 되니까, 가중치만 0으로 수렴시키면 되기 때문에, 훨씬 쉽다.
+
+# Shortcut Connections
+![[ResNet Shortcut Connection.png]]
+하나 또는 그 이상의 레이어를 건너뛴다.
+Identithy Shortcut Connection은 추가적인 파라미터나, 복잡한 계산을 추가하지 않는다.
+숏컷 커넥션을 추가해도 전체 네트워크는 end-to-end로 SGD 역전파를 통해 훈련될 수 있다.
+
+# 저자가 ImageNet실험으로 보인 것들
+* 매우 깊은 ResNet은 학습시키기 쉽다. 하지만 일반적인 신경망은 깊이가 증가할수록 높은 [[Training Error and Test Error|Training Error]]를 보이게 된다.
+* 우리의 깊은 ResNet은 
 
 # 해석 못하는 문장
 ## Abstract
@@ -88,3 +101,21 @@ by construction : 구성적으로
 >구성적으로 하나의 해가 존재한다 / 깊은 모델에 대해서 / (그 해는 다음과 같음) 추가된 레이어는 Identity Mapping이고, 나머지 레이어는 학습된 얇은 모델을 복사한 것
 >이러한 구성된 해가 존재함은 시사한다 / 깊은 모델은 반드시 생산하여야 한다 / 높지 않은 훈련오차를 / 이것의 얕은 짝보다
 
+## 6
+>Our deep residual nets can easily enjoy accuracy gains from greatly increased depth, producing results substantially better than previous networks.
+
+substantially : adv.크게
+
+>우리의 "깊은 잔차 네트워크" 쉽게 정확도를 향상시킬 수 있습니다 / 크게 깊이를 증가시킴으로써 / 기존 네트워크보다 훨씬 좋은 결과를 나타내면서
+
+## 7
+>Similar phenomena are also shown on the CIFAR-10 set, suggesting that the optimization difficulties and the effects of our method are not just akin to a particular dataset
+
+akin : 국한되다..?? 아무튼 여기서는 그런 뜻으로 쓰였다.
+
+>비슷한 현상이 보여집니다 / CIFAR-10 세트에서도 / 이는 보여준다 / 학습 난이도와 우리의 방법의 효과는 / 특정 데이터셋에만 국한된것이 아님을
+
+## 8
+>We present successfully trained models on this dataset with over 100 layers, and explore models with over 1000 layers.
+
+>우리는 성공적으로 보여줬습니다 / 이 데이터셋에서 (성공적으로) 학습시킨 모델을 / 100층이 넘는 모델 / 그리고 1000층이 넘는 모델까지도 탐구하였습니다.

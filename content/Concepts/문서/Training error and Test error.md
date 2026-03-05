@@ -1,3 +1,9 @@
+---
+aliases:
+  - Training Error
+  - Test Error
+---
+
 # Training Error
 모델이 학습에 사용한 데이터(훈련 데이터)에서 얼마나 틀렸는지
 

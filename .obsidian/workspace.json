@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e743c7a5a90f0b18",
+        "id": "0dd3d9f5685c6d33",
         "type": "tabs",
         "children": [
           {
-            "id": "0f1e4424ac25ba35",
+            "id": "1b01987539012e49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/Convolutional Neural Network.md",
+                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Convolutional Neural Network"
+              "title": "Deep Residual Learning for Image Recognition"
+            }
+          },
+          {
+            "id": "8ad4301eddea01ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Concepts/문서/Training Error and Test Error.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Training Error and Test Error"
             }
           }
         ]
@@ -74,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,9 +207,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dc832df65f1e22e",
+  "active": "1b01987539012e49",
   "lastOpenFiles": [
+    "content/Concepts/문서/degradation.md",
+    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/Concepts/문서/ensemble.md",
+    "content/Concepts/문서/residual.md",
+    "content/Concepts/문서/Training Error and Test Error.md",
+    "content/_assets/img/ResNet Shortcut Connection.png",
     "content/index.md",
+    "content/Concepts/문서/Stochastic Gradient Descent.md",
+    "content/Concepts/문서/Convolutional Neural Network.md",
     "README.md",
     "content/Concepts/문서/Perplexity.md",
     "public/index-og-image.webp",
@@ -208,7 +229,6 @@
     "public/Concepts/문서/torch.nn.Linear()-og-image.webp",
     "public/Concepts/문서/torch.nn.CrossEntropyLoss()-og-image.webp",
     "public/Concepts/문서/torch.nn.Conv2d()-og-image.webp",
-    "public/Concepts/문서/torch.argmax()-og-image.webp",
     "public/index.html",
     "public/Channel.html",
     "public/채널.html",
@@ -219,7 +239,6 @@
     "public/세이비어-초기화.html",
     "public/자비에르-초기화.html",
     "public/가중치.html",
-    "content/Concepts/문서/Convolutional Neural Network.md",
     "content/Concepts/문서/Kernel.md",
     "content/Concepts/문서/Stride.md",
     "content/Concepts/문서/Feature Map.md",
@@ -236,12 +255,6 @@
     "content/Concepts/문서/Sample and Feature.md",
     "content/Concepts/문서/Penn Treebank Tokenization.md",
     "content/Concepts/문서/Language Model.md",
-    "content/Concepts/문서/Residual.md",
-    "content/Concepts/문서/Conditional Probability.md",
-    "content/Concepts/문서/N-gram Language Model.md",
-    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
-    "content/Concepts/문서/Degradation.md",
-    "content/Concepts/문서/Normalization.md",
     "Untitled.canvas"
   ]
 }
