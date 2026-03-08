@@ -11,6 +11,7 @@ counterpart : 짝
 shallow : 얕은
 comprehensive : 포괄적인
 phenomena : 현상
+coarse : adj.거친 adj.해상도가 낮은
 
 # ResNet
 목표로 하는  기초 매핑을 H(x)라고 하면, 쌓인 비선형 층들이 또 다른 매핑 F(x) := H(x) - x를 학습하도록 한다. 그러면 원래의 매핑은 F(x) + x의 형태로 재구성된다.

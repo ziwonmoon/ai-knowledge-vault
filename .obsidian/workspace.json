@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/Back of Words.md",
+                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Back of Words"
+              "title": "Deep Residual Learning for Image Recognition"
             }
           }
         ]
@@ -195,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dc832df65f1e22e",
+  "active": "6a2b17e3fbf16a78",
   "lastOpenFiles": [
-    "content/Concepts/문서/Word Representation.md",
     "content/Concepts/문서/Back of Words.md",
+    "content/Concepts/문서/Word Representation.md",
     "content/Concepts/문서/N-gram Language Model.md",
     "content/Concepts/문서/One-Hot Encoding.md",
     "content/Concepts/문서/Word Categorizing.png",
