@@ -1,6 +1,8 @@
 ---
 aliases:
   - One-Hot Vector
+  - 원-핫 인코딩
+  - 원-핫 벡터
 ---
 
 # Example
@@ -38,3 +40,5 @@ Prediction: Banana(1)
 벡터로 표현해야 한다!
 
 
+# 단점
+공간적 낭비와 계산 리소스를 증가시킬 수 있다.
