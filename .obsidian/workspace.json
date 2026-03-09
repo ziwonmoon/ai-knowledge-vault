@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+                "file": "content/Concepts/문서/Cosine Similarity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep Residual Learning for Image Recognition"
+              "title": "Cosine Similarity"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -197,9 +196,14 @@
   },
   "active": "6a2b17e3fbf16a78",
   "lastOpenFiles": [
+    "content/_assets/img/Cosine Similarity.png",
+    "content/Concepts/문서/Linear Regression.md",
+    "content/Concepts/문서/Logistic Regression.md",
+    "content/Concepts/문서/Softmax Regression.md",
+    "content/Concepts/문서/Cosine Similarity.md",
+    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
     "content/Concepts/문서/Multi-Layer Perceptron.md",
     "content/index.md",
-    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
     "content/Concepts/문서/Term Frequency-Inverse Document Frequency.md",
     "content/Concepts/문서/in ...md",
     "content/Concepts/Ex. PyTorch 실전.md",
@@ -220,7 +224,6 @@
     "content/Concepts/문서/Stochastic Gradient Descent.md",
     "content/Concepts/문서/Convolutional Neural Network.md",
     "README.md",
-    "content/Concepts/문서/Perplexity.md",
     "public/index-og-image.webp",
     "public/Concepts/문서/표현에-대한-이해-og-image.webp",
     "public/Concepts/문서/이미지-처리-og-image.webp",
@@ -239,10 +242,6 @@
     "public/세이비어-초기화.html",
     "public/자비에르-초기화.html",
     "public/가중치.html",
-    "content/Concepts/문서/Kernel.md",
-    "content/Concepts/문서/Stride.md",
-    "content/Concepts/문서/Feature Map.md",
-    "content/Concepts/문서/Convolution.md",
     "Untitled.canvas"
   ]
 }
