@@ -25,9 +25,26 @@ perturbations : n.어떤 기준 상태에서의 작은 변화
 만약 여러 겹의 비선형 층이 점근적으로 복잡한 함수를 향해 수렴할 수 있다고 가정한다면, 이 가정은 여러 겹의 비선형 층은 점근적으로 **잔차함수**($\mathcal{F}(\mathbf{x})-\mathbf{x}$)에 수렴할 수 있다고 가정하는것이다(입력, 출력은 같은 차원이라고 가정한다). 신경망이 $\mathcal{H}(\mathbf{x})$에 근사하도록 하는 대신에, 명시적으로 신경망이 잔차함수$\mathcal{F}(\mathbf{x}) := \mathcal{H}(\mathbf{x}) - \mathbf{x}$에 수렴하도록 설정한다. 원래의 함수는 $\mathcal{F}(\mathbf{x})+\mathbf{x}$가 된다. 비록 두가지 형태가 모두 점근적으로는 목표로 하는 함수에 수렴할 수 있다고 하더라도, 학습의 난이도는 다를 수 있다.
 이 아이디어에 대한 연구자들의 시작은 [[degradation]]이라는 비직관적인 현상에 대한 고찰으로, 기존의 신경망에서는 솔버가 Identity Mapping을 만들기 힘들다는 것이었지만, 현실에서는 Identity Mapping이 최적인 경우는 별로 없지만, 이러한 변형(잔차함수 학습)은 문제의 조건을 개선할 수 있다. 만약 최적해가 Zero-Mapping 보다 Identity Mapping에 더 가깝다면, 솔버는 완전히 새로운 함수를 학습하는 것보다 항등 매핑을 기준으로 한 작은 차이가 있는 해를 찾는게 더 쉬울 것이다. 
 
+## Identity Mapping by Shortcuts
+ResNet의 기본 구성 블록(Residual Block)은 아래와 같이 정의된다.
+$$\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) + \mathbf{x}$$
+$\mathbf{x}$와 $\mathbf{y}$는 레이어의 입력, 출력 벡터이다.
+함수 $\mathcal{F}(\mathbf{x}, \{W_i\})$는 학습시킬 잔차매핑을 의미한다.
+이러한 Shortcut Connection은 추가적인 파라미터나 계산 복잡성을 추가하지 않는다.
+
+![[ResNet Shortcut Connection.png]]
+위의 그림은 $\mathcal{F}(\mathbf{x}) = W_2\sigma(W_1\mathbf{x})$으로 표현될 수 있으며,  여기서 $\sigma$는 [[ReLU]]를 뜻한다. bias는 표현의 간략화를 위해 생략되었다. 연산 $\mathcal{F} + \mathbf{x}$은 Shortcut Connection에 의해 수행되었으며 이는 element-wise(요소별) 더하기이다.
+식 $\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) + \mathbf{x}$에서 $\mathbf{x}$와 $\mathcal{F}$는 같은 차원이어야 한다. 만약 그렇지 않다면, 차원을 맞추기 위해 선형 투사 $W_s$를 수행할 수 있다.
+$$\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) + W_s\mathbf{x}$$
+차원을 변형시키기 위함이 아니더라도 Squart Matrix $W_s$를 적용할 수도 있지만, [[degradation]]문제를 해결함에 있어서는 identity mapping으로 충분하다.
+잔차함수 $\mathcal{F}$의 형태는 자유롭다. 두, 세 레이어를 표현할 수도 있고, 가능한 경우 더 많이 포함할 수도 있다. 그러나 만약 $\mathcal{F}$가 단 한 개의 레이어를 가지고 있다면, 식은 $\mathbf{y} = W_1\mathbf{x} + \mathbf{x}$인 선형층과 매우 비슷해진다. 이러한 형태에서는 어떠한 장점도 찾을 수 없다. [^1]
+
+### [[Convolutional Neural Network|CNN]]에서의 ResNet
+위의 표현은 간단함을 위해 [[Fully-Connected Layer|fc]]를 사용하였지만, [[Convolution|합성곱]] 층에도 적용될 수 있다. 함수 $\mathcal{F}(\mathbf{x}, \{W_i\})$는 다층의 합성곱 층을 표현할 수 있다. CNN에 ResNet을 적용하기 위해서는, 두 [[Feature Map|특성 맵]]에, [[이미지 처리|채널]]끼리, 원소별 합을 취하게 된다. [^2]
+
 ## 왜 잔차학습을 하면 Identity Mapping으로 수렴하기 쉬운가?
 만약 최적해가 $H(x) = x$라면, 비선형 변환을 여려번 거쳐서 최적해에 도달하기 어려움은 경험적으로 알 수 있다. (증명이 존재하는지는 모르겠지만 수학적 직관에 의하여 거의 확실하다)
-잔차 표현에서는 $F(x) = H(x) - x$이므로 $F(x) = 0$을 만들면 되니까, 가중치만 0으로 수렴시키면 되기 때문에, 훨씬 쉽다.
+잔차 표현에서는 $F(x) = H(x) - x$이므로 $F(x) = 0$을 만들면 되니까, 가중치만 0으로 수렴시키면 되기 때문에, 훨씬 쉽다. 덧셈 이후에 두 번째 비선형 함수(ReLU)를 적용한다.
 
 # Shortcut Connections
 ![[ResNet Shortcut Connection.png]]
@@ -127,3 +144,7 @@ akin : 국한되다..?? 아무튼 여기서는 그런 뜻으로 쓰였다.
 >We present successfully trained models on this dataset with over 100 layers, and explore models with over 1000 layers.
 
 >우리는 성공적으로 보여줬습니다 / 이 데이터셋에서 (성공적으로) 학습시킨 모델을 / 100층이 넘는 모델 / 그리고 1000층이 넘는 모델까지도 탐구하였습니다.
+
+[^1]: 근데 레이어가 문제가 아니라 [[Activation Function|활성화 함수]]어디에 끼워넣나에 따라 다르지 않을까?  어쨌든, 논문에서는 그냥 단순한 선형 레이어 하나인 경우라고 이해하면 될듯함
+
+[^2]: 그러니까 하나는 특성 맵이고, 하나는 입력을 그대로 가져오는데 차원이 다르니까 선형 투사를 적용해야 한다는 뜻인듯
