@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a7fa5ba838269875",
+        "id": "cc480aa447eb6f1c",
         "type": "tabs",
         "children": [
           {
-            "id": "c04ebe171f1e0248",
+            "id": "28a895ac988a4e49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Concepts/문서/Jaccard Similarity.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Jaccard Similarity"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -191,8 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c04ebe171f1e0248",
+  "active": "3dc832df65f1e22e",
   "lastOpenFiles": [
+    "content/Concepts/문서/Euclidean Distance.md",
+    "content/Concepts/문서/Jaccard Similarity.md",
+    "무제.md",
     "content/Concepts/문서/Convolutional Neural Network.md",
     "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
     "content/Concepts/문서/Feature Map.md",
@@ -218,9 +224,6 @@
     "content/Concepts/문서/N-gram Language Model.md",
     "content/Concepts/문서/Word Categorizing.png",
     "content/Concepts/문서/degradation.md",
-    "content/Concepts/문서/ensemble.md",
-    "content/Concepts/문서/residual.md",
-    "content/Concepts/문서/Training Error and Test Error.md",
     "content/_assets/img/ResNet Shortcut Connection.png",
     "public/index-og-image.webp",
     "public/Concepts/문서/표현에-대한-이해-og-image.webp",
