@@ -1,6 +1,7 @@
 ---
 aliases:
   - 단어 표현 방법
+  - 단어의 표현 방법
 ---
 
 # 개요
@@ -9,7 +10,7 @@ aliases:
 
 ![[Word Categorizing.png]]
 # Local Representation
-## [[One-Hot Encoding|One-Hot Vector]]
+## [[One-Hot Encoding]]
 각 단어마다 하나의 자리만 1이고 나머지는 0인 벡터로 표현하는 방법
 
 ## [[Back of Words]]
