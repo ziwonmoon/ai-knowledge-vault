@@ -21,7 +21,7 @@ aliases:
 커널의 원소는 가중치의 역할을 하고, 편향을 추가할 수 있다.
 ![[CNN bias.png]]
 
-# [[특성 맵]]
+# [[Feature Map|특성 맵]]
 입력과 커널을 합성곱한 결과  
 
 $$O_h=floor(\frac{I_h-K_h+2P}{S}+1)$$

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cc480aa447eb6f1c",
+        "id": "9cda564c4c2d6a17",
         "type": "tabs",
         "children": [
           {
-            "id": "28a895ac988a4e49",
+            "id": "0e985e6bc3479bdb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Concepts/문서/One-Hot Encoding.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "One-Hot Encoding"
+              "title": "새 탭"
             }
           }
         ]
@@ -78,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -194,35 +191,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28a895ac988a4e49",
+  "active": "0e985e6bc3479bdb",
   "lastOpenFiles": [
-    "content/Concepts/문서/Morpheme.md",
-    "content/Concepts/문서/One-Hot Encoding.md",
+    "content/Concepts/Ex. 논문을 읽자.md",
+    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/Concepts/0. 배경 지식.md",
     "content/Concepts/문서/Vocabulary.md",
+    "content/Concepts/8. NLP.md",
+    "content/Concepts/Similarity and Distance.md",
+    "content/Concepts/1. 기초 개념.md",
+    "content/Concepts/문서/Stopwords.md",
+    "content/Concepts/문서/Morpheme.md",
     "content/Concepts/문서/Word Representation.md",
+    "content/Concepts/문서/Document-Term Matrix.md",
+    "content/index.md",
+    "content/Concepts/2. 문제 유형.md",
+    "content/Concepts/7. 성능 평가.md",
+    "content/Concepts/Ex. NumPy 실전.md",
+    "content/Concepts/문서/Convolutional Neural Network.md",
+    "특성 맵.md",
+    "content/Concepts/문서/One-Hot Encoding.md",
     "content/Concepts/4. 학습 과정.md",
     "content/Concepts/5. 최적화.md",
     "content/Concepts/3. 모델.md",
-    "content/Concepts/2. 문제 유형.md",
     "content/Concepts/문서/Jaccard Similarity.md",
     "content/Concepts/문서/Euclidean Distance.md",
-    "무제.md",
-    "content/Concepts/문서/Convolutional Neural Network.md",
-    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
     "content/Concepts/문서/Feature Map.md",
     "content/Concepts/문서/Fully-Connected Layer.md",
     "content/Concepts/문서/ReLU.md",
-    "content/Concepts/문서/Cosine Similarity.md",
     "content/_assets/img/Cosine Similarity.png",
-    "content/Concepts/문서/Linear Regression.md",
-    "content/Concepts/문서/Logistic Regression.md",
-    "content/Concepts/문서/Softmax Regression.md",
-    "content/Concepts/문서/Multi-Layer Perceptron.md",
-    "content/index.md",
-    "content/Concepts/문서/Term Frequency-Inverse Document Frequency.md",
-    "content/Concepts/문서/in ...md",
-    "content/Concepts/Ex. PyTorch 실전.md",
-    "TF-IDF.md",
     "content/Concepts/문서/Word Categorizing.png",
     "content/_assets/img/ResNet Shortcut Connection.png",
     "public/index-og-image.webp",
