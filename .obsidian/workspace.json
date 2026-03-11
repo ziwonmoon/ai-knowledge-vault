@@ -11,13 +11,44 @@
             "id": "0e985e6bc3479bdb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Deep Residual Learning for Image Recognition"
+            }
+          },
+          {
+            "id": "2b3b676c6223a0f8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "content/_assets/img/ResNet Paper Fig3 Network Architectures.png"
+              },
+              "icon": "lucide-image",
+              "title": "ResNet Paper Fig3 Network Architectures"
+            }
+          },
+          {
+            "id": "7847ba8b20fa68b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Concepts/문서/Global Average Pooling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Global Average Pooling"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +161,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
@@ -153,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Concepts/문서/Back of Words.md",
+                "file": "content/Concepts/문서/Global Average Pooling.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Back of Words 의 개요"
+              "title": "Global Average Pooling 의 개요"
             }
           },
           {
@@ -170,6 +201,18 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "0a16d788773c8449",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "content/Concepts/문서/Global Average Pooling.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "각주"
             }
           }
         ],
@@ -188,37 +231,39 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "random-note:무작위 노트 열기": false
     }
   },
-  "active": "0e985e6bc3479bdb",
+  "active": "7847ba8b20fa68b7",
   "lastOpenFiles": [
-    "content/Concepts/Ex. 논문을 읽자.md",
+    "content/index.md",
+    "content/Concepts/문서/Global Average Pooling.md",
     "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/_assets/img/ResNet Paper Fig3 Network Architectures.png",
+    "content/Concepts/문서/Convolutional Neural Network.md",
+    "content/Concepts/문서/Convolution.md",
+    "content/Concepts/문서/Softmax Function.md",
+    "content/Concepts/문서/Stride.md",
+    "content/Concepts/문서/Similarity and Distance.md",
+    "content/Concepts/문서/Pooling.md",
+    "content/Concepts/Ex. 논문을 읽자.md",
     "content/Concepts/0. 배경 지식.md",
     "content/Concepts/문서/Vocabulary.md",
     "content/Concepts/8. NLP.md",
-    "content/Concepts/Similarity and Distance.md",
     "content/Concepts/1. 기초 개념.md",
     "content/Concepts/문서/Stopwords.md",
     "content/Concepts/문서/Morpheme.md",
     "content/Concepts/문서/Word Representation.md",
     "content/Concepts/문서/Document-Term Matrix.md",
-    "content/index.md",
     "content/Concepts/2. 문제 유형.md",
     "content/Concepts/7. 성능 평가.md",
     "content/Concepts/Ex. NumPy 실전.md",
-    "content/Concepts/문서/Convolutional Neural Network.md",
     "특성 맵.md",
     "content/Concepts/문서/One-Hot Encoding.md",
     "content/Concepts/4. 학습 과정.md",
     "content/Concepts/5. 최적화.md",
     "content/Concepts/3. 모델.md",
-    "content/Concepts/문서/Jaccard Similarity.md",
-    "content/Concepts/문서/Euclidean Distance.md",
-    "content/Concepts/문서/Feature Map.md",
-    "content/Concepts/문서/Fully-Connected Layer.md",
-    "content/Concepts/문서/ReLU.md",
     "content/_assets/img/Cosine Similarity.png",
     "content/Concepts/문서/Word Categorizing.png",
     "content/_assets/img/ResNet Shortcut Connection.png",
@@ -228,7 +273,6 @@
     "public/Concepts/문서/신경망-학습-og-image.webp",
     "public/Concepts/문서/검증용-데이터-og-image.webp",
     "public/Concepts/문서/torch.nn.Sequential()-og-image.webp",
-    "public/Concepts/문서/torch.nn.Linear()-og-image.webp",
     "public/index.html",
     "public/Channel.html",
     "public/채널.html",

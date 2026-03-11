@@ -1,6 +1,8 @@
 ---
 aliases:
   - ResNet
+date created: Sunday, March 1st 2026, 9:26:25 pm
+date modified: Wednesday, March 11th 2026, 3:22:36 pm
 ---
 Arxiv에서 찾을 수 있음.
 # 용어
@@ -46,15 +48,26 @@ $$\mathbf{y} = \mathcal{F}(\mathbf{x}, \{W_i\}) + W_s\mathbf{x}$$
 만약 최적해가 $H(x) = x$라면, 비선형 변환을 여려번 거쳐서 최적해에 도달하기 어려움은 경험적으로 알 수 있다. (증명이 존재하는지는 모르겠지만 수학적 직관에 의하여 거의 확실하다)
 잔차 표현에서는 $F(x) = H(x) - x$이므로 $F(x) = 0$을 만들면 되니까, 가중치만 0으로 수렴시키면 되기 때문에, 훨씬 쉽다. 덧셈 이후에 두 번째 비선형 함수(ReLU)를 적용한다.
 
+# Network Architectures
+저자는 설명을 위해, ImageNet을 위한 두가지 모델을 제시한다. 
+## Plain Network
+[[ResNet Paper Fig3 Network Architectures.png|사진]][^3]의 가운데 모델. VGG넷의 철학에서 영감을 받았다.
+대부분의 합성곱 [[Kernel|필터]]는 3x3의 크기이고 다음과 같은 간단한 규칙으로 설계되었다.
+1. 출력 [[Feature Map|특성 맵]]의 같은 크기를 위하여, 레이어는 같은 수의 필터를 가진다.
+2. 만약 특성 맵의 크기가 반으로 줄었다면, 필터의 크기는 두 배로 설정한다. (그렇게 하여 레이어당 복잡도를 유지시킨다)
+다운샘플링은 [[Stride|스트라이드]]가 2인 합성곱 계층을 사용하여 직접 수행한다. (특징 맵의 크기를 줄이는 작업은 별도의 [[Pooling|풀링]]연산 없이 이러한 과정으로 수행한다)
+네트워크는 global average pooling layer와 1000-way [[Softmax Function|Softmax]] FC레이어로 마무리된다. [^4]
+그림에서, 가중치 레이어의 최종 개수는 34개이다.
+
+우리의 모델은 VGG넷([[ResNet Paper Fig3 Network Architectures.png|그림]]의 왼쪽)보다 필터의 수는 적고, 복잡성도 낮다. 우리의 34레이어의 기본모델은 3.8B FLOPs이고, 이는 VGG-19의 18%이다.
 # Shortcut Connections
 ![[ResNet Shortcut Connection.png]]
 하나 또는 그 이상의 레이어를 건너뛴다.
 Identithy Shortcut Connection은 추가적인 파라미터나, 복잡한 계산을 추가하지 않는다.
 숏컷 커넥션을 추가해도 전체 네트워크는 end-to-end로 SGD 역전파를 통해 훈련될 수 있다.
 
-# 저자가 ImageNet실험으로 보인 것들
+# 저자가 ImageNet실험으로 보인 것
 * 매우 깊은 ResNet은 학습시키기 쉽다. 하지만 일반적인 신경망은 깊이가 증가할수록 높은 [[Training Error and Test Error|Training Error]]를 보이게 된다.
-* 우리의 깊은 ResNet은 
 
 # 해석 못하는 문장
 ## Abstract
@@ -146,5 +159,12 @@ akin : 국한되다..?? 아무튼 여기서는 그런 뜻으로 쓰였다.
 >우리는 성공적으로 보여줬습니다 / 이 데이터셋에서 (성공적으로) 학습시킨 모델을 / 100층이 넘는 모델 / 그리고 1000층이 넘는 모델까지도 탐구하였습니다.
 
 [^1]: 근데 레이어가 문제가 아니라 [[Activation Function|활성화 함수]]어디에 끼워넣나에 따라 다르지 않을까?  어쨌든, 논문에서는 그냥 단순한 선형 레이어 하나인 경우라고 이해하면 될듯함
-
 [^2]: 그러니까 하나는 특성 맵이고, 하나는 입력을 그대로 가져오는데 차원이 다르니까 선형 투사를 적용해야 한다는 뜻인듯
+[^3]: 그림에 7x7 conv, 64, /2 라는 표현이 있다.
+	읽는 방법은 7x7 : [[Kernel|커널]]의 크기가 7x7
+	64 : 출력 [[이미지 처리|채널]] 수(필터 개수)
+	/2 : [[Stride|스트라이드]] = 2
+
+[^4]: 컨볼루션 레이어를 타다가 결국 3x3특성맵이 512채널을 가지게 된다.
+	그러고 global average pooling하여 채널마다 하나의 값이 남는다.
+	그 후 이 512차원 벡터는 1000개의 출력 뉴런에 Fully Connected된다.
