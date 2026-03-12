@@ -2,7 +2,7 @@
 aliases:
   - ResNet
 date created: Sunday, March 1st 2026, 9:26:25 pm
-date modified: Wednesday, March 11th 2026, 3:22:36 pm
+date modified: Thursday, March 12th 2026, 12:17:38 pm
 ---
 Arxiv에서 찾을 수 있음.
 # 용어
@@ -164,7 +164,6 @@ akin : 국한되다..?? 아무튼 여기서는 그런 뜻으로 쓰였다.
 	읽는 방법은 7x7 : [[Kernel|커널]]의 크기가 7x7
 	64 : 출력 [[이미지 처리|채널]] 수(필터 개수)
 	/2 : [[Stride|스트라이드]] = 2
-
 [^4]: 컨볼루션 레이어를 타다가 결국 3x3특성맵이 512채널을 가지게 된다.
 	그러고 global average pooling하여 채널마다 하나의 값이 남는다.
 	그 후 이 512차원 벡터는 1000개의 출력 뉴런에 Fully Connected된다.

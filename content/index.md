@@ -1,11 +1,15 @@
 ---
 title: 문지원의 AI 공부 노트
+date created: Sunday, January 25th 2026, 6:42:46 pm
+date modified: Thursday, March 12th 2026, 1:26:14 pm
 ---
 >[!note]
 >admotion은 이렇게 쓰는거란다.
 
 나무위키 느낌나게 하자. 하나하나 다 문서로 만드는거야 가중치, 편향 이런 작은거부터
- 
+
+![[To do]]
+
 [My Github Page](https://github.com/ziwonmoon) 
 
 ![[표현에 대한 이해]]
@@ -35,18 +39,4 @@ title: 문지원의 AI 공부 노트
 ![[Ex. PyTorch 실전]]
 
 ![[Ex. 논문을 읽자]]
-### 할 일
-순서대로. 책 내용이랑 병행하면서 하기. 체크표시로 바꾸기 아래.
-* 논문 ResNet
-	* 재현. 논문과 완전 동일한 네트워크 구현할 필요는 없고. 일단 간단한 이미지 인식 Plain Net구성해보고(CNN)
-	* 그다음에 Residual Net도 한번 구성해보자
-* 타이타닉 생존자 문제 (Kaggle에 있음, EDA이해하기)
-* MLP를 기준으로 봤을 때, 수학적으로 표현할 수 있는 함수?  어떤 함수는 표현할 수 있고 어떤 함수는 표현할 수 있는지에 대한 연구가 존재하나?
-* 논문 Attention Is All You Need (책 18장을 마치고)
-* 논문 BERT (책 20장을 마치고)
-* 강화 학습 공부하기 (책에서는 안 다룸)
-* 배운 모델들, 코드 참고하지 말고 직접 구현해보기 nn.RNN() 같은 구현체는 사용하지 말 것 
-	* 굉장히 어려울것 같은데.. 한번은 해보자 한번은.. 올인하지말고 시간 짬짬이 내서 조금씩 만들어보자.
-	* 역전파 기능도 직접 구현해보기? GD,SGD, Mini-Batch GD? 가능할까? 너무 어려울까? 적어도 트라이
-* Kaggle Competition 확인해보기
-* 
+

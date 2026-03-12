@@ -8,47 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e985e6bc3479bdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Deep Residual Learning for Image Recognition"
-            }
-          },
-          {
-            "id": "2b3b676c6223a0f8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/_assets/img/ResNet Paper Fig3 Network Architectures.png"
-              },
-              "icon": "lucide-image",
-              "title": "ResNet Paper Fig3 Network Architectures"
-            }
-          },
-          {
             "id": "7847ba8b20fa68b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/Global Average Pooling.md",
+                "file": "content/Concepts/문서/To do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Global Average Pooling"
+              "title": "To do"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "특성 맵",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -184,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Concepts/문서/Global Average Pooling.md",
+                "file": "content/Concepts/문서/Perceptron Learning Algorithm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Global Average Pooling 의 개요"
+              "title": "Perceptron Learning Algorithm 의 개요"
             }
           },
           {
@@ -209,7 +181,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "content/Concepts/문서/Global Average Pooling.md"
+                "file": "content/Concepts/문서/Perceptron Learning Algorithm.md"
               },
               "icon": "lucide-file-signature",
               "title": "각주"
@@ -235,12 +207,16 @@
       "random-note:무작위 노트 열기": false
     }
   },
-  "active": "7847ba8b20fa68b7",
+  "active": "3dc832df65f1e22e",
   "lastOpenFiles": [
     "content/index.md",
-    "content/Concepts/문서/Global Average Pooling.md",
+    "content/Concepts/문서/To do.md",
     "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/Concepts/문서/To do (Obsolete).md",
     "content/_assets/img/ResNet Paper Fig3 Network Architectures.png",
+    "content/Concepts/문서/Perceptron Learning Algorithm.md",
+    "content/Concepts/문서/Perceptron.md",
+    "content/Concepts/문서/Global Average Pooling.md",
     "content/Concepts/문서/Convolutional Neural Network.md",
     "content/Concepts/문서/Convolution.md",
     "content/Concepts/문서/Softmax Function.md",
@@ -260,10 +236,6 @@
     "content/Concepts/7. 성능 평가.md",
     "content/Concepts/Ex. NumPy 실전.md",
     "특성 맵.md",
-    "content/Concepts/문서/One-Hot Encoding.md",
-    "content/Concepts/4. 학습 과정.md",
-    "content/Concepts/5. 최적화.md",
-    "content/Concepts/3. 모델.md",
     "content/_assets/img/Cosine Similarity.png",
     "content/Concepts/문서/Word Categorizing.png",
     "content/_assets/img/ResNet Shortcut Connection.png",

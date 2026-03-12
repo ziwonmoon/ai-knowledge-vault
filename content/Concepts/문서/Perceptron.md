@@ -21,6 +21,23 @@ $$ if\sum^n_iW_ix_i + b \geq 0 \rightarrow y=1 $$
 $$ if\sum^n_iW_ix_i+b < 0 \rightarrow y=0 $$
 $b=(-\theta)$ 자료에서 생략되더라도 편향또한 최적의 값을 찾아야 할 변수
 
+# 근본
+머신러닝 수업을 듣고.
+
+$$\begin{aligned}
+h(\mathbf{x})=sign(\sum^d_{i=1}(w_ix_i)+b)
+\end{aligned}$$
+
+이게 퍼셉트론. 끝. 근데 조금 더 행렬친화적으로 표현하면.
+
+$$\begin{aligned}
+\text{let}~~~ &b = w_0x_0 \\
+\text{where}~~~ &w_0=b,~x_0=1 \\
+h(\mathbf{x})&=sign(\sum^d_{i=0}w_ix_i) \\
+&=sign(\mathbf{w}^T \mathbf{x})
+\end{aligned}$$
+
+
 
 # Logistic Regression vs Perceptron
 
