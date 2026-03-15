@@ -1,3 +1,7 @@
+---
+date created: Sunday, January 25th 2026, 6:42:46 pm
+date modified: Sunday, March 15th 2026, 2:20:22 pm
+---
 
 $$ cost(W) = -\frac{1}{n}\sum^n_{i=1}\sum^k_{j=1}y_j^{(i)}log(p_j^{(i)})$$
 

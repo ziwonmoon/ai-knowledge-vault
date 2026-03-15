@@ -1,6 +1,6 @@
 ---
 date created: Thursday, March 12th 2026, 1:25:19 pm
-date modified: Thursday, March 12th 2026, 1:55:09 pm
+date modified: Sunday, March 15th 2026, 11:22:04 am
 ---
 일단은 "Pytorch Deep Learning"을 메인으로 학습하자.
 그리고 병행하면서 할 게 있는데, 실습(직접 모델을 구성해보기), 논문 읽기. 수학적 기반 마련하기. 이정도이다. 언급된 순서대로 하면 될 것 같다.

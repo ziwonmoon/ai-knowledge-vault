@@ -3,6 +3,8 @@ aliases:
   - One-Hot Vector
   - 원-핫 인코딩
   - 원-핫 벡터
+date created: Sunday, January 25th 2026, 6:42:46 pm
+date modified: Sunday, March 15th 2026, 11:35:47 am
 ---
 # 개요
 단어를 표현하는 가장 기본적인 표현 방법
@@ -47,3 +49,6 @@ Prediction: Banana(1)
 # 한계
 단어의 개수가 늘어날수록, 벡터를 저장하기 위한 공간(벡터의 차원)이 계속 늘어난다.
 단어의 유사도를 표현하지 못한다.
+
+# One-Hot Vector vs Embedding Vector
+![[One-Hot Vector vs Embedding Vector]]
