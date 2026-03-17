@@ -1,6 +1,9 @@
 ---
 aliases:
   - SGD
+  - 확률적 경사하강법
+date created: Thursday, March 5th 2026, 9:24:44 pm
+date modified: Tuesday, March 17th 2026, 2:25:44 pm
 ---
 # 개요
 [[Gradient Descent|경사 하강법]]의 확률적(Stochastic) 변형
