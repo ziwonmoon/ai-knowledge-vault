@@ -2,8 +2,10 @@
 aliases:
   - Training Error
   - Test Error
+  - 훈련 오차
+  - 훈련 에러
 date created: Tuesday, March 3rd 2026, 2:49:53 pm
-date modified: Tuesday, March 17th 2026, 2:31:35 pm
+date modified: Wednesday, March 18th 2026, 1:22:53 pm
 ---
 
 # Training Error

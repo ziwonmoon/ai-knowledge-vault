@@ -1,6 +1,9 @@
 ---
 aliases:
   - 배치 정규화
+  - BN
+date created: Friday, February 13th 2026, 6:03:37 pm
+date modified: Wednesday, March 18th 2026, 1:29:08 pm
 ---
 # 개요
 
