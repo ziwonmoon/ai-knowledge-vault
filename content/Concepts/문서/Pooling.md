@@ -1,6 +1,8 @@
 ---
 aliases:
   - 풀링
+date created: Sunday, February 22nd 2026, 2:05:47 pm
+date modified: Tuesday, March 17th 2026, 2:31:26 pm
 ---
 # 개요
 풀링 층에서는 [[Feature Map|특성 맵]]을 다운샘플링하여 특성 맵의 크기를 줄이는 풀링 연산이 이루어진다.

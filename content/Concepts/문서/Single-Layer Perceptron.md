@@ -1,3 +1,7 @@
+---
+date created: Sunday, January 25th 2026, 6:42:46 pm
+date modified: Tuesday, March 17th 2026, 2:31:27 pm
+---
 # 개요
 ![[Single-Layer Perceptron.png]]
 입력층과 출력층 두 레이어만 있음.

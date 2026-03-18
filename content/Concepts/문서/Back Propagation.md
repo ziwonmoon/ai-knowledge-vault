@@ -2,6 +2,8 @@
 aliases:
   - 역전파
   - BackPropagation
+date created: Sunday, February 1st 2026, 8:59:50 pm
+date modified: Tuesday, March 17th 2026, 2:31:26 pm
 ---
 
 ![[신경망 학습]]

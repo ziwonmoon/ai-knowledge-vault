@@ -2,6 +2,8 @@
 aliases:
   - 정규표현식
   - Regex
+date created: Thursday, February 26th 2026, 3:45:05 pm
+date modified: Wednesday, March 18th 2026, 10:36:45 am
 ---
 # 패턴
 

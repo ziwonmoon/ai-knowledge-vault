@@ -2,6 +2,8 @@
 aliases:
   - Training Error
   - Test Error
+date created: Tuesday, March 3rd 2026, 2:49:53 pm
+date modified: Tuesday, March 17th 2026, 2:31:35 pm
 ---
 
 # Training Error

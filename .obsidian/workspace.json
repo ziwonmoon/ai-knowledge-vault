@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9cda564c4c2d6a17",
+        "id": "a9aae36a195c9b1b",
         "type": "tabs",
         "children": [
           {
-            "id": "bb944c0a9aa2f5fe",
+            "id": "f9f5ba5c66c9e85f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+                "file": "content/Concepts/문서/Word2Vec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep Residual Learning for Image Recognition"
-            }
-          },
-          {
-            "id": "aff845d793fe68d3",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/_assets/img/ResNet Paper Fig3 Network Architectures.png"
-              },
-              "icon": "lucide-image",
-              "title": "ResNet Paper Fig3 Network Architectures"
+              "title": "Word2Vec"
             }
           }
         ]
@@ -90,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
-    "collapsed": true
+    "width": 241.5
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -220,42 +207,42 @@
       "random-note:무작위 노트 열기": false
     }
   },
-  "active": "bb944c0a9aa2f5fe",
+  "active": "3dc832df65f1e22e",
   "lastOpenFiles": [
-    "content/Concepts/문서/Stochastic Gradient Descent.md",
-    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/Concepts/문서/Embedding Projector.md",
     "content/Concepts/문서/Word2Vec.md",
+    "content/Concepts/문서/Distributed Representation.md",
+    "content/Concepts/문서/map().md",
+    "content/Concepts/Ex. Python 실전.md",
+    "content/Concepts/문서/Regular Expression.md",
+    "content/Concepts/문서/for ... else.md",
+    "content/_assets/img/Skip-Gram Neural Network.png",
+    "content/Concepts/문서/tqdm().md",
+    "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/Concepts/문서/Training Error and Test Error.md",
+    "README.md",
+    "content/Concepts/문서/Single-Layer Perceptron.md",
+    "content/Concepts/문서/Weight Initialization.md",
+    "content/Concepts/문서/Gated Recurrent Unit.md",
+    "content/Concepts/문서/Back Propagation.md",
+    "content/Concepts/문서/Pooling.md",
+    "content/Concepts/문서/Confusion Matrix.md",
+    "content/Concepts/문서/torch.nn.CrossEntropyLoss().md",
+    "content/Concepts/문서/Optimizer.md",
+    "content/Concepts/문서/Stochastic Gradient Descent.md",
     "content/_assets/img/ResNet Paper Fig3 Network Architectures.png",
     "content/Concepts/문서/Negative Sampling.md",
     "content/Concepts/문서/Word Embedding.md",
     "content/Concepts/문서/Skip-Gram.md",
-    "Skip-Gram Neural Network.png",
     "content/Concepts/문서/CBOW.md",
-    "content/Concepts/문서/torch.nn.CrossEntropyLoss().md",
     "content/Concepts/문서/Cross Entropy Function.md",
     "content/Concepts/문서/Softmax Function.md",
-    "content/Concepts/문서/Cross Entropy Function Subtitution Example.md",
     "content/_assets/img/CBOW Output Layer.png",
     "content/_assets/img/CBOW Projection Layer.png",
     "content/_assets/img/CBOW Lookup Table.png",
     "content/_assets/img/CBOW Neural Network 1.png",
     "content/_assets/img/CBOW Neural Network.png",
     "content/_assets/img/CBOW Sliding Window.png",
-    "content/Concepts/문서/Distributed Representation.md",
-    "content/Concepts/문서/One-Hot Encoding.md",
-    "content/Concepts/문서/One-Hot Vector vs Embedding Vector.md",
-    "content/Concepts/문서/Dense Representation.md",
-    "content/Concepts/문서/Sparse Representation.md",
-    "content/Concepts/문서/To do.md",
-    "content/index.md",
-    "content/Concepts/문서/To do (Obsolete).md",
-    "content/Concepts/문서/Perceptron Learning Algorithm.md",
-    "content/Concepts/문서/Perceptron.md",
-    "content/Concepts/문서/Global Average Pooling.md",
-    "content/Concepts/문서/Convolutional Neural Network.md",
-    "content/Concepts/문서/Convolution.md",
-    "content/Concepts/문서/Stride.md",
-    "content/Concepts/문서/Similarity and Distance.md",
     "content/_assets/img/Cosine Similarity.png",
     "content/Concepts/문서/Word Categorizing.png",
     "public/index.html",

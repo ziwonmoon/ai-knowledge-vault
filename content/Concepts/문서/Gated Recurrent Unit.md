@@ -1,6 +1,8 @@
 ---
 aliases:
   - GRU
+date created: Sunday, February 15th 2026, 6:14:07 pm
+date modified: Tuesday, March 17th 2026, 2:31:27 pm
 ---
 # 개요
 [[Long Short-Term Memory|LSTM]]에는 입력, 출력, 삭제의 3개의 게이트가 존재하는 반면 GRU에는 업데이트 게이트와 리셋 게이트 2개의 게이트가 존재함.

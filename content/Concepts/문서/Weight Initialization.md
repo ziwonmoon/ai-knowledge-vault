@@ -1,6 +1,8 @@
 ---
 aliases:
   - 가중치 초기화
+date created: Friday, February 13th 2026, 5:41:33 pm
+date modified: Tuesday, March 17th 2026, 2:31:27 pm
 ---
 가중치가 초기에 어떤 값을 가졌느냐에 따라서 모델의 훈련 결과가 달라진다
 그렇다고 모든 값을 0으로 두고 시작하냐?
