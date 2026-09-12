@@ -2,6 +2,8 @@
 aliases:
   - N-gram
   - N-gram 언어 모델
+date created: Saturday, September 12th 2026, 10:16:37 pm
+date modified: Saturday, September 12th 2026, 10:43:32 pm
 ---
 # 개요
 카운트에 기반한 통계적 접근을 사용하는 [[Statistical Language Model|SLM]]의 일종

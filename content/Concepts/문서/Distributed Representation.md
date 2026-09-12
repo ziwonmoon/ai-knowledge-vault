@@ -2,7 +2,7 @@
 aliases:
   - 분산 표현
 date created: Sunday, March 15th 2026, 11:40:10 am
-date modified: Sunday, March 15th 2026, 11:50:07 am
+date modified: Saturday, September 12th 2026, 10:41:53 pm
 ---
 
 # 개요

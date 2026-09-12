@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a9aae36a195c9b1b",
+        "id": "40b773f2c72132e7",
         "type": "tabs",
         "children": [
-          {
-            "id": "f9f5ba5c66c9e85f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Deep Residual Learning for Image Recognition"
-            }
-          },
           {
             "id": "42f39ecaa995c2e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/Training Error and Test Error.md",
+                "file": "content/Concepts/문서/GloVE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Training Error and Test Error"
+              "title": "GloVE"
+            }
+          },
+          {
+            "id": "66c3f4bcf5d3afa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/Concepts/문서/Cost Function.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cost Function"
             }
           }
         ]
@@ -55,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -92,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 371.97265625
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Concepts/문서/GloVE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -127,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/index.md",
+                "file": "content/Concepts/문서/GloVE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -170,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Concepts/문서/Perceptron Learning Algorithm.md",
+                "file": "content/Concepts/문서/GloVE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Perceptron Learning Algorithm 의 개요"
+              "title": "개요"
             }
           },
           {
@@ -217,40 +219,40 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "bases:새 베이스 생성하기": false,
-      "obsidian-git:Open Git source control": false,
-      "random-note:무작위 노트 열기": false
+      "random-note:무작위 노트 열기": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9f5ba5c66c9e85f",
+  "active": "3dc832df65f1e22e",
   "lastOpenFiles": [
-    "content/Concepts/문서/Batch Normalization.md",
+    "content/Concepts/문서/Co-occurrence Matrix.md",
+    "content/Concepts/문서/GloVE.md",
+    "content/_assets/img/GloVe 가중치 함수.png",
+    "content/Concepts/문서/Cost Function.md",
+    "content/Concepts/문서/Homomorphism.md",
+    "content/index.md",
+    "content/Concepts/문서/Co-occurence Probability.md",
+    "content/Concepts/문서/Confusion Matrix.md",
+    "content/Concepts/문서/Word2Vec.md",
+    "content/Concepts/문서/LSA.md",
+    "content/Concepts/문서/Corpus.md",
+    "content/Concepts/문서/Word Embedding.md",
+    "content/Concepts/문서/Dense Representation.md",
+    "content/Concepts/문서/Sparse Representation.md",
+    "content/Concepts/문서/Statistical Language Model.md",
+    "content/Concepts/문서/N-gram Language Model.md",
+    "content/Concepts/문서/Distributed Representation.md",
+    "content/Concepts/문서/Euclidean Distance.md",
     "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
+    "content/Concepts/문서/Batch Normalization.md",
     "content/Concepts/문서/Training Error and Test Error.md",
     "content/Concepts/문서/Top-k Accuracy.md",
     "content/Concepts/0. 배경 지식.md",
     "content/Concepts/2. 문제 유형.md",
-    "content/Concepts/문서/Word2Vec.md",
     "content/Concepts/문서/Embedding Projector.md",
-    "content/Concepts/문서/Distributed Representation.md",
     "content/Concepts/문서/map().md",
-    "content/Concepts/Ex. Python 실전.md",
-    "content/Concepts/문서/Regular Expression.md",
-    "content/Concepts/문서/for ... else.md",
     "content/_assets/img/Skip-Gram Neural Network.png",
-    "content/Concepts/문서/tqdm().md",
-    "README.md",
-    "content/Concepts/문서/Single-Layer Perceptron.md",
-    "content/Concepts/문서/Weight Initialization.md",
-    "content/Concepts/문서/Gated Recurrent Unit.md",
-    "content/Concepts/문서/Back Propagation.md",
-    "content/Concepts/문서/Pooling.md",
-    "content/Concepts/문서/Confusion Matrix.md",
-    "content/Concepts/문서/torch.nn.CrossEntropyLoss().md",
-    "content/Concepts/문서/Optimizer.md",
-    "content/Concepts/문서/Stochastic Gradient Descent.md",
     "content/_assets/img/ResNet Paper Fig3 Network Architectures.png",
-    "content/Concepts/문서/Negative Sampling.md",
-    "content/Concepts/문서/Word Embedding.md",
     "content/_assets/img/CBOW Output Layer.png",
     "content/_assets/img/CBOW Projection Layer.png",
     "content/_assets/img/CBOW Lookup Table.png",
@@ -258,7 +260,6 @@
     "content/_assets/img/CBOW Neural Network.png",
     "content/_assets/img/CBOW Sliding Window.png",
     "content/_assets/img/Cosine Similarity.png",
-    "content/Concepts/문서/Word Categorizing.png",
     "public/index.html",
     "public/Channel.html",
     "public/채널.html",

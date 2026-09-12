@@ -1,6 +1,8 @@
 ---
 aliases:
   - 유클리드 거리
+date created: Saturday, September 12th 2026, 10:16:37 pm
+date modified: Saturday, September 12th 2026, 10:41:04 pm
 ---
 # 개요
 문서의 유사도를 구하기 위한 방법 중 하나.

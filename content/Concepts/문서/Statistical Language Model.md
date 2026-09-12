@@ -2,6 +2,8 @@
 aliases:
   - 통계적 언어 모델
   - SLM
+date created: Saturday, September 12th 2026, 10:16:37 pm
+date modified: Saturday, September 12th 2026, 10:43:48 pm
 ---
 # 개요
 언어 모델의 전통적인 접근 방법

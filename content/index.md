@@ -1,7 +1,7 @@
 ---
 title: 문지원의 AI 공부 노트
 date created: Sunday, January 25th 2026, 6:42:46 pm
-date modified: Thursday, March 12th 2026, 1:26:14 pm
+date modified: Saturday, September 12th 2026, 11:25:17 pm
 ---
 >[!note]
 >admotion은 이렇게 쓰는거란다.

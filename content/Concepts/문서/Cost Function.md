@@ -7,6 +7,8 @@ aliases:
   - Loss Function
   - Error Function
   - Objective Function
+date created: Saturday, September 12th 2026, 10:16:37 pm
+date modified: Saturday, September 12th 2026, 11:14:42 pm
 ---
 
 

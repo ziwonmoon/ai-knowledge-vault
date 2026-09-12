@@ -2,7 +2,7 @@
 aliases:
   - ResNet
 date created: Sunday, March 1st 2026, 9:26:25 pm
-date modified: Wednesday, March 18th 2026, 1:37:55 pm
+date modified: Saturday, September 12th 2026, 10:40:04 pm
 ---
 Arxiv에서 찾을 수 있음.
 # 용어

@@ -1,9 +1,10 @@
 ---
 date created: Sunday, March 15th 2026, 11:49:22 am
-date modified: Wednesday, March 18th 2026, 11:31:27 am
+date modified: Saturday, September 12th 2026, 10:52:03 pm
 ---
 # 개요
 [[Distributed Representation|분산 표현]]을 위한 학습 방법
+실제값과 예측값에 대한 오차를 손실 함수를 통해 줄여나가며 학습하는 예측 기반의 방법론
 
 [[CBOW]]와 [[Skip-Gram]] 두 가지 방식이 있다.
 
