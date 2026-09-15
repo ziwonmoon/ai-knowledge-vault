@@ -4,7 +4,7 @@ aliases:
   - Global Vectors for Word Representation
   - GloVe
 date created: Saturday, September 12th 2026, 10:42:27 pm
-date modified: Sunday, September 13th 2026, 12:38:19 am
+date modified: Tuesday, September 15th 2026, 10:44:44 pm
 ---
 # 개요
 카운트 기반과 예측 기반을 모두 사용하는 [[Word Embedding|워드 임베딩]] 방법론

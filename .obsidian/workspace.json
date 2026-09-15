@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "40b773f2c72132e7",
+        "id": "d57ba3ec03cf9655",
         "type": "tabs",
         "children": [
           {
-            "id": "42f39ecaa995c2e2",
+            "id": "241282bb786676f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Concepts/문서/GloVE.md",
+                "file": "content/Concepts/문서/FastText.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GloVE"
-            }
-          },
-          {
-            "id": "66c3f4bcf5d3afa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/Concepts/문서/Cost Function.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cost Function"
+              "title": "FastText"
             }
           }
         ]
@@ -94,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 371.97265625
+    "width": 237.703125,
+    "collapsed": true
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Concepts/문서/GloVE.md",
+                "file": "content/Concepts/문서/FastText.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Concepts/문서/GloVE.md",
+                "file": "content/Concepts/문서/FastText.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Concepts/문서/GloVE.md",
+                "file": "content/Concepts/문서/FastText.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,10 +210,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3dc832df65f1e22e",
+  "active": "241282bb786676f5",
   "lastOpenFiles": [
-    "content/Concepts/문서/Co-occurrence Matrix.md",
+    "content/Concepts/문서/N-gram Language Model.md",
+    "content/Concepts/문서/Statistical Language Model.md",
+    "content/Concepts/문서/FastText.md",
     "content/Concepts/문서/GloVE.md",
+    "content/Concepts/문서/Co-occurrence Matrix.md",
     "content/_assets/img/GloVe 가중치 함수.png",
     "content/Concepts/문서/Cost Function.md",
     "content/Concepts/문서/Homomorphism.md",
@@ -239,8 +229,6 @@
     "content/Concepts/문서/Word Embedding.md",
     "content/Concepts/문서/Dense Representation.md",
     "content/Concepts/문서/Sparse Representation.md",
-    "content/Concepts/문서/Statistical Language Model.md",
-    "content/Concepts/문서/N-gram Language Model.md",
     "content/Concepts/문서/Distributed Representation.md",
     "content/Concepts/문서/Euclidean Distance.md",
     "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
