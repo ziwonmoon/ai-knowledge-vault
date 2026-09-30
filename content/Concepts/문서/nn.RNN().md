@@ -1,3 +1,7 @@
+---
+date created: Saturday, September 12th 2026, 10:16:37 pm
+date modified: Wednesday, September 30th 2026, 4:27:28 pm
+---
 
 [[Recurrent Neural Network|RNN]]의 pytorch 구현.
 

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9c9c7257441e47fe",
+        "id": "922e17a583acb61c",
         "type": "tabs",
         "children": [
           {
-            "id": "49c13a0d4e7b1095",
+            "id": "29f1d9e72f664347",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "content/Concepts/문서/Embedding Layer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Embedding Layer"
             }
           }
         ]
@@ -209,8 +209,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "49c13a0d4e7b1095",
+  "active": "29f1d9e72f664347",
   "lastOpenFiles": [
+    "content/_assets/img/embedding vector lookup table.png",
+    "content/Concepts/문서/nn.Embedding().md",
+    "content/Concepts/문서/Embedding Layer.md",
+    "content/Concepts/문서/nn.RNN().md",
     "content/Concepts/문서/Word Embedding.md",
     "content/Concepts/문서/Stopwords.md",
     "content/Concepts/문서/Word2Vec.md",
@@ -234,10 +238,6 @@
     "content/Concepts/문서/Deep Residual Learning for Image Recognition.md",
     "content/Concepts/문서/Batch Normalization.md",
     "content/Concepts/문서/Training Error and Test Error.md",
-    "content/Concepts/문서/Top-k Accuracy.md",
-    "content/Concepts/0. 배경 지식.md",
-    "content/Concepts/2. 문제 유형.md",
-    "content/Concepts/문서/Embedding Projector.md",
     "content/_assets/img/Skip-Gram Neural Network.png",
     "content/_assets/img/ResNet Paper Fig3 Network Architectures.png",
     "content/_assets/img/CBOW Output Layer.png",
@@ -246,7 +246,6 @@
     "content/_assets/img/CBOW Neural Network 1.png",
     "content/_assets/img/CBOW Neural Network.png",
     "content/_assets/img/CBOW Sliding Window.png",
-    "content/_assets/img/Cosine Similarity.png",
     "public/index.html",
     "public/Channel.html",
     "public/채널.html",
