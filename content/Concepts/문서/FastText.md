@@ -2,7 +2,7 @@
 aliases:
   - 패스트텍스트
 date created: Tuesday, September 15th 2026, 10:45:08 pm
-date modified: Tuesday, September 15th 2026, 11:11:21 pm
+date modified: Wednesday, September 16th 2026, 5:01:54 pm
 ---
 # 개요
 [[Word2Vec]]의 확장된 매커니즘

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d57ba3ec03cf9655",
+        "id": "9c9c7257441e47fe",
         "type": "tabs",
         "children": [
           {
-            "id": "241282bb786676f5",
+            "id": "49c13a0d4e7b1095",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "content/Concepts/문서/FastText.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "FastText"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.703125,
-    "collapsed": true
+    "width": 237.703125
   },
   "right": {
     "id": "764496aeb3fba979",
@@ -210,11 +209,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "241282bb786676f5",
+  "active": "49c13a0d4e7b1095",
   "lastOpenFiles": [
+    "content/Concepts/문서/Word Embedding.md",
+    "content/Concepts/문서/Stopwords.md",
+    "content/Concepts/문서/Word2Vec.md",
+    "content/Concepts/문서/FastText.md",
     "content/Concepts/문서/N-gram Language Model.md",
     "content/Concepts/문서/Statistical Language Model.md",
-    "content/Concepts/문서/FastText.md",
     "content/Concepts/문서/GloVE.md",
     "content/Concepts/문서/Co-occurrence Matrix.md",
     "content/_assets/img/GloVe 가중치 함수.png",
@@ -223,10 +225,8 @@
     "content/index.md",
     "content/Concepts/문서/Co-occurence Probability.md",
     "content/Concepts/문서/Confusion Matrix.md",
-    "content/Concepts/문서/Word2Vec.md",
     "content/Concepts/문서/LSA.md",
     "content/Concepts/문서/Corpus.md",
-    "content/Concepts/문서/Word Embedding.md",
     "content/Concepts/문서/Dense Representation.md",
     "content/Concepts/문서/Sparse Representation.md",
     "content/Concepts/문서/Distributed Representation.md",
@@ -238,7 +238,6 @@
     "content/Concepts/0. 배경 지식.md",
     "content/Concepts/2. 문제 유형.md",
     "content/Concepts/문서/Embedding Projector.md",
-    "content/Concepts/문서/map().md",
     "content/_assets/img/Skip-Gram Neural Network.png",
     "content/_assets/img/ResNet Paper Fig3 Network Architectures.png",
     "content/_assets/img/CBOW Output Layer.png",
