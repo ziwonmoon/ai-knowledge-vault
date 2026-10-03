@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "content/Concepts/문서/nn.Embedding().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "nn.Embedding()"
+            }
+          },
+          {
+            "id": "e87f937bea1a28a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "content/Concepts/문서/Embedding Layer.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Embedding Layer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,11 +224,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29f1d9e72f664347",
+  "active": "e87f937bea1a28a2",
   "lastOpenFiles": [
-    "content/_assets/img/embedding vector lookup table.png",
     "content/Concepts/문서/nn.Embedding().md",
     "content/Concepts/문서/Embedding Layer.md",
+    "content/_assets/img/embedding vector lookup table.png",
     "content/Concepts/문서/nn.RNN().md",
     "content/Concepts/문서/Word Embedding.md",
     "content/Concepts/문서/Stopwords.md",

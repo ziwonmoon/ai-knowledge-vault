@@ -2,7 +2,7 @@
 aliases:
   - 임베딩 층
 date created: Wednesday, September 30th 2026, 4:29:40 pm
-date modified: Wednesday, September 30th 2026, 4:32:28 pm
+date modified: Saturday, October 3rd 2026, 9:51:19 pm
 ---
 
 임베딩 층(embedding layer)를 만들어 훈련 데이터로부터 처음부터 임베딩 벡터를 학습할 수 있다.
